@@ -1,0 +1,19 @@
+# data and outputs: never commit (WRDS data are licensed; SEC data are large)
+data/
+output/
+*.parquet
+*.zip
+tests/_tmp_free/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
